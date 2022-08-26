@@ -5,7 +5,7 @@
   color: #fff;
   background-color: rgb(100, 158, 228);
   margin: 20px auto 0 auto;
-  padding: 0px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .top,
@@ -32,7 +32,7 @@
 
 .weather-icon {
   width: 100px;
-  padding: 10px 5px 0 0;
+  padding: 0 5px 0 0;
 }
 
 .temperature {
