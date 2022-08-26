@@ -3,9 +3,9 @@
   border-radius: 6px;
   box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
   color: #fff;
-  background-color: #333;
+  background-color: rgb(100, 158, 228);
   margin: 20px auto 0 auto;
-  padding: 20px 20px 20px 20px;
+  padding: 0px 20px 10px 20px;
 }
 
 .top,
@@ -16,8 +16,8 @@
 }
 
 .city {
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 20px;
   line-height: 1;
   margin: 0;
   letter-spacing: 1px;
@@ -25,11 +25,46 @@
 
 .weather-description {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   margin: 0;
 }
 
 .weather-icon {
   width: 100px;
+  padding: 10px 5px 0 0;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 68px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+
+.details {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parameter-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.parameter-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.parameter-label.top {
+  border-bottom: 1px solid #fff;
 }
