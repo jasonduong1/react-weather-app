@@ -37,7 +37,7 @@ function App() {
     <div className="container">
       <Search onSearchChange={hanfleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
-      <Forecast />
+      {forecast && <Forecast data={forecast} />}
     </div>
   );
 }
