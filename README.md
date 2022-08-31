@@ -2,6 +2,8 @@
 
 ![Screenshot](screenshot.jpeg)
 
+Weather app built in React and styled with CSS. Works off GeoDB Cities API for location information and OpenWeather API for weather information. Integrated components for search, current weather information, and weather forecast for a single page application.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
