@@ -1,6 +1,6 @@
-![Screenshot](01-SF.jpg)
-![Screenshot](02-NY.jpg)
-![Screenshot](03-TK.jpg)
+# React weather app
+
+![Screenshot](screenshot.jpeg)
 
 # Getting Started with Create React App
 
