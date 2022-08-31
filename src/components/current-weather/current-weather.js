@@ -25,6 +25,14 @@ const CurrentWeather = ({ data }) => {
             <span className="parameter-value">{Math.round(data.main.feels_like)}°F</span>
           </div>
           <div className="parameter-row">
+            <span className="parameter-label">Lows</span>
+            <span className="parameter-value">{Math.round(data.main.temp_min)}°F</span>
+          </div>
+          <div className="parameter-row">
+            <span className="parameter-label">Highs</span>
+            <span className="parameter-value">{Math.round(data.main.temp_max)}°F</span>
+          </div>
+          <div className="parameter-row">
             <span className="parameter-label">Wind</span>
             <span className="parameter-value">{data.wind.speed} mph</span>
           </div>
@@ -36,12 +44,6 @@ const CurrentWeather = ({ data }) => {
             <span className="parameter-label">Pressure</span>
             <span className="parameter-value">{data.main.pressure} mb</span>
           </div> */}
-          <div className="parameter-row">
-            <span className="parameter-label">Lows/ Highs</span>
-            <span className="parameter-value">
-              {Math.round(data.main.temp_min)}°F / {Math.round(data.main.temp_max)}°F
-            </span>
-          </div>
         </div>
       </div>
     </div>
