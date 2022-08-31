@@ -1,6 +1,7 @@
 # React weather app
 
-![Screenshot](screenshot.jpeg)
+<!-- ![Screenshot](screenshot.jpeg) -->
+
 ![Alt Text](https://github.com/jasonduong1/react-weather-app/blob/main/screen-recording.gif)
 
 Weather app built in React and styled with CSS. Works off GeoDB Cities API for location information and OpenWeather API for weather information. Integrated components for search, current weather information, and weather forecast for a single page application.
