@@ -1,12 +1,16 @@
 import "./current-weather.css";
 
+function capitalize(s) {
+  return s[0].toUpperCase() + s.slice(1);
+}
+
 const CurrentWeather = ({ data }) => {
   return (
     <div className="weather">
       <div className="top">
         <div>
           <p className="city">{data.city}</p>
-          <p className="weather-description">{data.weather[0].description}</p>
+          <p className="weather-description">{capitalize(data.weather[0].description)}</p>
         </div>
         <img alt="weather" className="weather-icon" src={`icons/${data.weather[0].icon}.png`} />
       </div>

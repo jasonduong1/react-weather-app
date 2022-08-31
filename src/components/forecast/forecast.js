@@ -7,6 +7,10 @@ import {
 } from "react-accessible-accordion";
 import "./forecast.css";
 
+function capitalize(s) {
+  return s[0].toUpperCase() + s.slice(1);
+}
+
 const WEEK_DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 const Forecast = ({ data }) => {
@@ -24,7 +28,7 @@ const Forecast = ({ data }) => {
                 <div className="daily-item">
                   <img alt="weather" className="icon-small" src={`icons/${item.weather[0].icon}.png`} />
                   <label className="day">{forecastDays[idx]}</label>
-                  <label className="description">{item.weather[0].description}</label>
+                  <label className="description">{capitalize(item.weather[0].description)}</label>
                   <label className="min-max">
                     {Math.round(item.main.temp_min)}°F / {Math.round(item.main.temp_max)}°F
                   </label>
