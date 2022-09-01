@@ -1,4 +1,4 @@
-# React weather app
+# WTHR - a React Weather app
 
 <!-- ![Screenshot](screenshot.jpeg) -->
 
